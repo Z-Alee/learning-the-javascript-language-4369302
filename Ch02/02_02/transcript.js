@@ -12,9 +12,10 @@
 '<a href="http://www.example.com">';
 
 "This is Joe's favorite string";
-"This is Joe's \"favorite\" string";
+"This is Joe's \"favorite\" string"; // escaping the string using backslash
 "This is Joe's "favorite" string"; // this line will not work
 
+// backslashes can be used to break strings into multiple lines
 "This is \
 Joe's Favorite \
 String EVER";
