@@ -1,6 +1,7 @@
 function speakSomething(what = "Default speech", howMany = 10) {
   for (var i = 0; i < howMany; i += 1) {
     console.log(what + " (" + i + ")");
+    console.log(arguments[0] + " (" + i + ")");
   }
 }
 
